@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f1420">
+  <meta name="description" content="My AI English Coach - practice English speaking, grammar and vocabulary daily.">
+  <title>My AI English Coach</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/group-a.css">
+</head>
+<body>
+  <div id="app">
+    <header id="topbar">
+      <div class="brand">
+        <span class="brand-mark">&#127891;</span>
+        <span class="brand-name">My AI English Coach</span>
+      </div>
+      <div class="top-actions">
+        <span id="streak-pill" class="chip" title="Day streak">&#128293; 0</span>
+        <span id="xp-pill" class="chip" title="Experience points">0 XP</span>
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle dark / light theme">&#127769;</button>
+      </div>
+    </header>
+    <main id="view"></main>
+    <nav id="tabbar" aria-label="Main tabs"></nav>
+  </div>
+
+  <script src="js/core.js"></script>
+  <!-- Data layer -->
+  <script src="js/data/verbs.js"></script>
+  <script src="js/data/words.js"></script>
+  <script src="js/data/idioms.js"></script>
+  <script src="js/data/phrasals.js"></script>
+  <script src="js/data/tenses.js"></script>
+  <script src="js/data/conditionals.js"></script>
+  <script src="js/data/interview.js"></script>
+  <script src="js/data/passages.js"></script>
+  <script src="js/data/pronunciation.js"></script>
+  <script src="js/data/scenarios.js"></script>
+  <script src="js/data/missions.js"></script>
+  <script src="js/data/confidence.js"></script>
+  <!-- On-device AI engine (rule-based; see README for plugging a real LLM) -->
+  <script src="js/ai/grammar.js"></script>
+  <script src="js/ai/engine.js"></script>
+  <!-- UI tabs -->
+  <script src="js/ui/dashboard.js"></script>
+  <script src="js/ui/speak.js"></script>
+  <script src="js/ui/conversation.js"></script>
+  <script src="js/ui/daily.js"></script>
+  <script src="js/ui/progress.js"></script>
+  <script src="js/ui/placement.js"></script>
+  <script src="js/ui/report.js"></script>
+  <script src="js/ui/settings.js"></script>
+  <script src="js/ui/tenses.js"></script>
+  <script src="js/ui/verbs.js"></script>
+  <script src="js/ui/vocab.js"></script>
+  <script src="js/ui/sentences.js"></script>
+  <script src="js/ui/translate.js"></script>
+  <script src="js/ui/pronunciation.js"></script>
+  <script src="js/ui/interview.js"></script>
+  <script src="js/ui/techenglish.js"></script>
+  <script src="js/ui/think.js"></script>
+  <script src="js/ui/simulations.js"></script>
+  <script src="js/ui/listening.js"></script>
+  <script src="js/ui/writing.js"></script>
+  <script src="js/ui/confidence.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
