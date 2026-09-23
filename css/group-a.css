@@ -1,0 +1,113 @@
+/* My AI English Coach — TAB GROUP A shared styles (mobile-first) */
+.ec-tab { max-width: 560px; margin: 0 auto; padding: 12px 12px 32px; font-family: system-ui, -apple-system, sans-serif; color: #111827; }
+.ec-title { font-size: 1.35rem; margin: 4px 0 8px; }
+.ec-card { background: #fff; border: 1px solid #e5e7eb; border-radius: 14px; padding: 14px; margin: 10px 0; box-shadow: 0 1px 3px rgba(0,0,0,.05); }
+.ec-cardtitle { font-weight: 700; margin-bottom: 8px; font-size: 1rem; }
+.ec-muted { color: #6b7280; font-size: .86rem; line-height: 1.45; }
+.ec-note { background: #fef3c7; border: 1px solid #fcd34d; border-radius: 10px; padding: 8px 10px; font-size: .85rem; margin-top: 8px; }
+.ec-row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 8px; }
+
+.ec-btn { display: inline-block; border: 1px solid #d1d5db; background: #f9fafb; color: #111827;
+  border-radius: 10px; padding: 9px 14px; font-size: .92rem; cursor: pointer; margin: 4px 4px 4px 0; }
+.ec-btn:active { transform: scale(.97); }
+.ec-primary { background: #2563eb; border-color: #2563eb; color: #fff; font-weight: 600; }
+.ec-small { padding: 6px 10px; font-size: .82rem; }
+.ec-danger { background: #fef2f2; border-color: #fca5a5; color: #b91c1c; }
+.ec-opt { display: block; width: 100%; text-align: left; margin: 6px 0; }
+.ec-opt-ok { background: #dcfce7; border-color: #22c55e; }
+.ec-opt-bad { background: #fee2e2; border-color: #ef4444; }
+
+.ec-input, .ec-select, .ec-textarea { width: 100%; box-sizing: border-box; border: 1px solid #d1d5db;
+  border-radius: 10px; padding: 9px 10px; font-size: .95rem; margin-top: 4px; background: #fff; color: #111827; }
+.ec-textarea { min-height: 84px; resize: vertical; }
+.ec-field { display: block; margin: 10px 0; }
+.ec-flabel { font-size: .85rem; font-weight: 600; color: #374151; }
+
+.ec-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 10px; }
+.ec-chip { border: 1px solid #d1d5db; background: #f9fafb; border-radius: 999px; padding: 7px 13px; font-size: .85rem; cursor: pointer; }
+.ec-chip-on { background: #2563eb; border-color: #2563eb; color: #fff; font-weight: 600; }
+
+.ec-hello { display: flex; justify-content: space-between; align-items: center; margin: 4px 0; }
+.ec-hellotext { font-size: 1.25rem; font-weight: 700; }
+.ec-levelbadge { background: #7c3aed; color: #fff; font-weight: 700; border-radius: 999px; padding: 6px 14px; font-size: .9rem; }
+.ec-whylevel { font-size: .85rem; color: #4b5563; margin-bottom: 6px; }
+.ec-statsrow { display: flex; justify-content: space-around; text-align: center; }
+.ec-statbig { font-size: 1.4rem; font-weight: 800; }
+.ec-freeze { font-size: .82rem; color: #0e7490; background: #ecfeff; border: 1px solid #a5f3fc; border-radius: 10px; padding: 8px 10px; margin: 8px 0; }
+.ec-missionrow { display: flex; gap: 14px; align-items: center; }
+.ec-ring { flex: 0 0 auto; }
+.ec-focus { background: linear-gradient(135deg, #fef9c3, #fef3c7); border-color: #fcd34d; }
+.ec-focus-title { font-weight: 800; margin-bottom: 4px; }
+.ec-focus-skill { font-size: 1.05rem; font-weight: 700; color: #92400e; }
+.ec-focus-reason { font-size: .85rem; color: #78350f; }
+
+.ec-skillrow { margin: 8px 0; }
+.ec-skilltop { display: flex; justify-content: space-between; font-size: .88rem; margin-bottom: 3px; }
+.ec-skillname { font-weight: 600; }
+.ec-skillval { color: #4b5563; }
+.ec-bar { background: #eef2f7; border-radius: 999px; height: 10px; overflow: hidden; }
+.ec-bigbar { height: 14px; }
+.ec-barfill { height: 100%; background: linear-gradient(90deg, #22c55e, #16a34a); border-radius: 999px; transition: width .4s; }
+.ec-meter { margin: 8px 0; }
+.ec-meter-top { display: flex; justify-content: space-between; font-size: .85rem; margin-bottom: 3px; }
+
+.ec-vsnums { display: flex; align-items: center; justify-content: center; gap: 16px; margin: 8px 0; }
+.ec-vscol { text-align: center; }
+.ec-vsbig { font-size: 1.8rem; font-weight: 800; }
+.ec-vsarrow { font-size: 1.5rem; color: #9ca3af; }
+
+/* Speak feedback card */
+.ec-feedback .ec-fb-sec { border-top: 1px dashed #e5e7eb; padding: 10px 0; }
+.ec-feedback .ec-fb-sec:first-child { border-top: none; }
+.ec-fb-head { font-weight: 700; margin: 6px 0 4px; font-size: .95rem; }
+.ec-said { background: #f9fafb; border-radius: 10px; padding: 10px; font-size: 1rem; line-height: 1.5; }
+.ec-err { background: #fee2e2; color: #b91c1c; border-radius: 6px; padding: 1px 5px; font-weight: 700; }
+.ec-errline { margin-top: 6px; }
+.ec-correct { background: #dcfce7; border-radius: 10px; padding: 10px; font-weight: 600; color: #166534; }
+.ec-natural { background: #eff6ff; border-radius: 10px; padding: 10px; color: #1e40af; }
+.ec-good { color: #15803d; font-weight: 600; }
+
+/* Conversation */
+.ec-chatwin { min-height: 220px; max-height: 46vh; overflow-y: auto; border: 1px solid #e5e7eb; border-radius: 14px; padding: 10px; margin: 10px 0; background: #f8fafc; display: flex; flex-direction: column; gap: 8px; }
+.ec-msg { max-width: 85%; padding: 9px 12px; border-radius: 14px; font-size: .93rem; line-height: 1.45; }
+.ec-bot { background: #fff; border: 1px solid #e5e7eb; align-self: flex-start; border-bottom-left-radius: 4px; }
+.ec-user { background: #2563eb; color: #fff; align-self: flex-end; border-bottom-right-radius: 4px; }
+.ec-strict { background: #fffbeb; border-color: #fcd34d; margin: 6px 0; }
+.ec-strict-ok { color: #15803d; font-size: .88rem; margin: 4px 0; }
+.ec-summary { background: #f0fdf4; border-color: #86efac; }
+
+/* Daily tasks */
+.ec-task-done { opacity: .75; }
+.ec-taskhead { display: flex; justify-content: space-between; gap: 8px; align-items: flex-start; }
+.ec-tasklabel { font-weight: 600; }
+.ec-activity { margin-top: 10px; border-top: 1px dashed #e5e7eb; padding-top: 10px; }
+.ec-flashword { font-size: 1.5rem; font-weight: 800; text-align: center; margin: 10px 0; }
+.ec-q { font-weight: 600; margin: 8px 0; font-size: 1rem; }
+
+/* Progress */
+.ec-chart { width: 100%; display: block; }
+.ec-mistrow { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-top: 1px solid #f3f4f6; }
+.ec-achgrid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+.ec-ach { border: 1px solid #e5e7eb; border-radius: 12px; padding: 10px; text-align: center; }
+.ec-locked { opacity: .45; filter: grayscale(.6); }
+.ec-achicon { font-size: 1.6rem; }
+.ec-achname { font-weight: 700; font-size: .88rem; margin: 2px 0; }
+
+/* Placement */
+.ec-levelbig { font-size: 3rem; font-weight: 800; color: #7c3aed; text-align: center; margin: 6px 0; }
+.ec-road { padding: 7px 0; border-top: 1px solid #f3f4f6; font-size: .92rem; }
+.ec-orderans { min-height: 44px; border: 1px dashed #d1d5db; border-radius: 10px; padding: 6px; margin: 8px 0; display: flex; flex-wrap: wrap; gap: 6px; }
+
+/* Report */
+.ec-reptext { white-space: pre-wrap; line-height: 1.6; font-size: .95rem; }
+.ec-repsec { border-top: 1px solid #f3f4f6; padding: 8px 0; }
+
+/* Dark theme hooks (settings toggle sets data-theme) */
+[data-theme="dark"] .ec-tab { color: #e5e7eb; }
+[data-theme="dark"] .ec-card { background: #1f2937; border-color: #374151; }
+[data-theme="dark"] .ec-btn { background: #374151; border-color: #4b5563; color: #e5e7eb; }
+[data-theme="dark"] .ec-input, [data-theme="dark"] .ec-select, [data-theme="dark"] .ec-textarea { background: #111827; border-color: #4b5563; color: #e5e7eb; }
+[data-theme="dark"] .ec-muted { color: #9ca3af; }
+[data-theme="dark"] .ec-chatwin { background: #111827; border-color: #374151; }
+[data-theme="dark"] .ec-bot { background: #1f2937; border-color: #374151; }
+[data-theme="dark"] .ec-said { background: #1f2937; }
